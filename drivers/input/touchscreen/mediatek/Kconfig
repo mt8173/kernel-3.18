@@ -32,6 +32,30 @@ config TOUCHSCREEN_MTK_FT5726
           To compile this dirver as a module, choose M here: the
           module will be called.
 
+<<<<<<< HEAD
+=======
+config CONFIG_TOUCHSCREEN_FT5X46
+	tristate "FT5X46 Touchscreen"
+	default n
+	help
+	  Say Y here if you have FT5X46 touchscreen,
+	  connected to your system.
+	  To compile this dirver as a module, choose M here: the
+	  module will be called.
+
+source "drivers/input/touchscreen/mediatek/ft5x46/Kconfig"
+
+config TOUCHSCREEN_MTK_GT1151
+	tristate "GT1151 for Mediatek package"
+	default n
+	help
+	  Say Y here if you have GT1151 touch panel.
+
+	  If unsure, say N.
+
+	  To compile this dirver as a module, choose M here: the
+	  module will be called.
+>>>>>>> 5e474a3d5... Fixing Warning for MTK_GT1151
 
 config TOUCHSCREEN_MTK_GT1151TB
 	bool "GT1151 for Mediatek package"
