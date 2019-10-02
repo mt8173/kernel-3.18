@@ -31,11 +31,7 @@
 #include "mach/mt_thermal.h"
 #include "mt-plat/mtk_thermal_platform.h"
 #include <linux/uidgid.h>
-<<<<<<< HEAD
 #include <tmp_bts.h>
-=======
-#include "../../../thermal/mt8173/inc/tmp_bts.h"
->>>>>>> 46d432fd0... Fixed compilation errors
 #include <linux/slab.h>
 
 /*=============================================================
