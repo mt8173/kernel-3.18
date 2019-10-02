@@ -22,7 +22,7 @@
 #include "ddp_ovl.h"
 #include "primary_display.h"
 #ifdef CONFIG_MTK_HDMI_SUPPORT
-#include "../../../ext_disp/mt8173/extd_ddp.h"
+#include "extd_ddp.h"
 #endif
 #include "mtk_ovl.h"
 
